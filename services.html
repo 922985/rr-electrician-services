@@ -1,0 +1,283 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Services | RR Electrician Services</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+
+body{
+font-family:Arial,sans-serif;
+background:#fff;
+color:#17345f;
+line-height:1.6;
+}
+
+header{
+background:#123b83;
+padding:18px 5%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+gap:15px;
+}
+
+.logo{
+color:white;
+font-size:22px;
+font-weight:bold;
+}
+
+nav{
+display:flex;
+flex-wrap:wrap;
+gap:8px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+padding:9px 12px;
+border-radius:6px;
+font-weight:bold;
+}
+
+nav a:hover{
+background:#f5bd27;
+color:#123b83;
+}
+
+.page-title{
+background:linear-gradient(120deg,#123b83,#2455a0);
+color:white;
+text-align:center;
+padding:65px 15px;
+}
+
+.page-title h1{
+font-size:clamp(32px,5vw,46px);
+margin-bottom:10px;
+}
+
+.page-title p{
+font-size:17px;
+}
+
+.services{
+padding:55px 7%;
+}
+
+.services-intro{
+text-align:center;
+margin-bottom:35px;
+}
+
+.services-intro h2{
+color:#123b83;
+font-size:30px;
+margin-bottom:8px;
+}
+
+.service-grid{
+display:grid;
+grid-template-columns:repeat(3,minmax(0,1fr));
+gap:24px;
+}
+
+.service-card{
+background:#f4f7fc;
+border-radius:12px;
+overflow:hidden;
+border-bottom:4px solid #f5bd27;
+box-shadow:0 5px 18px rgba(0,0,0,.08);
+transition:transform .25s;
+}
+
+.service-card:hover{
+transform:translateY(-5px);
+}
+
+.service-card img{
+width:100%;
+height:210px;
+object-fit:cover;
+display:block;
+}
+
+.service-content{
+padding:20px;
+}
+
+.service-content h3{
+color:#123b83;
+font-size:20px;
+margin-bottom:8px;
+}
+
+.service-content p{
+color:#52647c;
+font-size:15px;
+}
+
+.quality{
+background:#123b83;
+color:white;
+text-align:center;
+padding:45px 15px;
+}
+
+.quality h2{
+color:#f5bd27;
+margin-bottom:10px;
+}
+
+footer{
+background:#0b2452;
+color:white;
+text-align:center;
+padding:25px;
+}
+
+@media(max-width:850px){
+.service-grid{
+grid-template-columns:repeat(2,minmax(0,1fr));
+}
+}
+
+@media(max-width:550px){
+header{justify-content:center}
+nav{justify-content:center}
+.service-grid{grid-template-columns:1fr}
+.service-card img{height:220px}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">RR ELECTRICIAN SERVICES</div>
+
+<nav>
+<a href="index.html" target="_blank" rel="noopener noreferrer">Home</a>
+<a href="services.html" target="_blank" rel="noopener noreferrer">Services</a>
+<a href="gallery.html" target="_blank" rel="noopener noreferrer">Gallery</a>
+<a href="contact.html" target="_blank" rel="noopener noreferrer">Contact</a>
+<a href="about.html" target="_blank" rel="noopener noreferrer">About Us</a>
+<a href="safety.html" target="_blank" rel="noopener noreferrer">Safety</a>
+</nav>
+</header>
+
+<section class="page-title">
+<h1>Our Electrical Services</h1>
+<p>Professional Electrical Solutions for Every Home and Business</p>
+</section>
+
+<section class="services">
+
+<div class="services-intro">
+<h2>What We Do</h2>
+<p>Complete Electrical Work with Quality, Care and Safety</p>
+</div>
+
+<div class="service-grid">
+
+<div class="service-card">
+<img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=900&q=85" alt="New House Wiring">
+<div class="service-content">
+<h3>01. New House Wiring</h3>
+<p>Complete electrical wiring for new homes, rooms and buildings with proper planning and safe connections.</p>
+</div>
+</div>
+
+<div class="service-card">
+<img src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=900&q=85" alt="Old House Rewiring">
+<div class="service-content">
+<h3>02. Old House Rewiring</h3>
+<p>Replacement of old, damaged and outdated wiring to improve electrical safety and reliability.</p>
+</div>
+</div>
+
+<div class="service-card">
+<img src="https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=900&q=85" alt="Profile Light Installation">
+<div class="service-content">
+<h3>03. Profile Light Installation</h3>
+<p>Modern profile lighting installation for ceilings, interiors and decorative spaces.</p>
+</div>
+</div>
+
+<div class="service-card">
+<img src="https://images.unsplash.com/photo-1555963966-b7ae5404b6ed?auto=format&fit=crop&w=900&q=85" alt="Electrical Panel Board">
+<div class="service-content">
+<h3>04. Panel Board Work</h3>
+<p>Electrical distribution panel installation, MCB fitting, wiring and maintenance.</p>
+</div>
+</div>
+
+<div class="service-card">
+<img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=900&q=85" alt="Inverter Installation">
+<div class="service-content">
+<h3>05. Inverter Installation</h3>
+<p>Home inverter and battery installation with proper wiring and safe connections.</p>
+</div>
+</div>
+
+<div class="service-card">
+<img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=900&q=85" alt="Fan Installation">
+<div class="service-content">
+<h3>06. Fan Installation</h3>
+<p>Ceiling fan, exhaust fan and other fan installation and replacement services.</p>
+</div>
+</div>
+
+<div class="service-card">
+<img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=900&q=85" alt="Electrical Fault Repair">
+<div class="service-content">
+<h3>07. Electrical Fault Solutions</h3>
+<p>Inspection and repair of common electrical faults, short circuits and power problems.</p>
+</div>
+</div>
+
+<div class="service-card">
+<img src="https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=900&q=85" alt="LED Lighting">
+<div class="service-content">
+<h3>08. LED & Decorative Lighting</h3>
+<p>LED lights, decorative lights and modern lighting installation for homes and businesses.</p>
+</div>
+</div>
+
+<div class="service-card">
+<img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=900&q=85" alt="Switch and Socket Installation">
+<div class="service-content">
+<h3>09. Switch & Socket Installation</h3>
+<p>Installation and replacement of switches, sockets, holders and electrical accessories.</p>
+</div>
+</div>
+
+<div class="service-card">
+<img src="https://images.unsplash.com/photo-1555963966-b7ae5404b6ed?auto=format&fit=crop&w=900&q=85" alt="Earthing and Electrical Safety">
+<div class="service-content">
+<h3>10. Earthing & Safety Work</h3>
+<p>Earthing inspection, safety checks and electrical protection improvements.</p>
+</div>
+</div>
+
+</div>
+</section>
+
+<section class="quality">
+<h2>Quality Work. Safe Connections.</h2>
+<p>RR Electrician Services – Your Safety Is Our Priority.</p>
+</section>
+
+<footer>
+RR ELECTRICIAN SERVICES<br>
+Professional Electrical Solutions
+</footer>
+
+</body>
+</html>
