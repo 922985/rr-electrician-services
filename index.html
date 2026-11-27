@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RR Electrician Services</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:Arial,sans-serif;
+    background:white;
+    color:#17345f;
+}
+header{
+    background:#123b83;
+    padding:18px 5%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+}
+.logo{
+    color:white;
+    font-size:23px;
+    font-weight:bold;
+}
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    padding:10px 13px;
+    border-radius:6px;
+    font-weight:bold;
+}
+nav a:hover{
+    background:#f5bd27;
+    color:#123b83;
+}
+.hero{
+    min-height:520px;
+    background:linear-gradient(90deg,#071e46e8,#123b8380),
+    url('https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=1600&q=85');
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    padding:50px 8%;
+    color:white;
+}
+.hero-content{
+    max-width:650px;
+}
+.hero h1{
+    font-size:clamp(35px,5vw,58px);
+    margin-bottom:20px;
+}
+.hero p{
+    font-size:18px;
+    line-height:1.7;
+}
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:14px 25px;
+    background:#f5bd27;
+    color:#123b83;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:7px;
+}
+section{
+    padding:55px 7%;
+    text-align:center;
+}
+h2{
+    font-size:32px;
+    color:#123b83;
+    margin-bottom:20px;
+}
+.tools{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(190px,1fr));
+    gap:20px;
+    margin-top:30px;
+}
+.tool{
+    padding:25px;
+    background:#f2f6ff;
+    border-radius:12px;
+    border-bottom:4px solid #f5bd27;
+}
+.tool h3{
+    color:#123b83;
+    margin-bottom:10px;
+}
+.quote{
+    background:#123b83;
+    color:white;
+    padding:45px 15px;
+    font-size:24px;
+    font-weight:bold;
+}
+.quote span{
+    color:#f5bd27;
+}
+footer{
+    background:#0b2452;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+@media(max-width:600px){
+    header{
+        justify-content:center;
+        gap:15px;
+    }
+    nav{
+        justify-content:center;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">RR ELECTRICIAN SERVICES</div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About Us</a>
+        <a href="safety.html">Safety</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <div class="hero-content">
+        <h1>Professional Electrical Services</h1>
+        <p>
+            Reliable Electrical Solutions for Every Home
+            and Business. Quality Work, Safe Connections
+            and Customer Trust.
+        </p>
+        <a href="contact.html" class="btn">BOOK NOW</a>
+    </div>
+</div>
+
+<section>
+    <h2>Our Electrical Tools</h2>
+    <p>Professional Tools for Quality Electrical Work</p>
+
+    <div class="tools">
+        <div class="tool">
+            <h3>Digital Multimeter</h3>
+            <p>Electrical Testing Equipment</p>
+        </div>
+
+        <div class="tool">
+            <h3>Insulated Tools</h3>
+            <p>Professional Electrical Tools</p>
+        </div>
+
+        <div class="tool">
+            <h3>Safety Gloves</h3>
+            <p>Electrical Protection Equipment</p>
+        </div>
+
+        <div class="tool">
+            <h3>Safety Helmet</h3>
+            <p>Personal Safety Equipment</p>
+        </div>
+    </div>
+</section>
+
+<div class="quote">
+    "We Connect Power with <span>Trust!</span>"
+</div>
+
+<footer>
+    RR ELECTRICIAN SERVICES<br>
+    Your Safety Is Our Priority.
+</footer>
+
+</body>
+</html>
+ho gaya
