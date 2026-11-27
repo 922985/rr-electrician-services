@@ -1,0 +1,270 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us | RR Electrician Services</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+font-family:Arial,sans-serif;
+background:#fff;
+color:#222;
+}
+header{
+background:#123b7a;
+color:white;
+text-align:center;
+padding:22px 12px;
+}
+header h1{font-size:28px;margin-bottom:8px}
+nav{
+background:#0b2854;
+padding:15px 8px;
+text-align:center;
+}
+nav a{
+color:white;
+text-decoration:none;
+margin:7px 10px;
+font-weight:bold;
+display:inline-block;
+}
+nav a:hover{color:#ffcc33}
+.hero{
+text-align:center;
+padding:40px 15px;
+background:#f2f6fc;
+}
+.hero h2{
+color:#123b7a;
+font-size:32px;
+margin-bottom:12px;
+}
+.hero p{line-height:1.7;color:#555}
+.container{
+max-width:1100px;
+margin:auto;
+padding:25px 18px 45px;
+}
+.social-title,.booking-title{
+text-align:center;
+color:#123b7a;
+margin:25px 0;
+font-size:26px;
+}
+.contact-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:18px;
+}
+.contact-card{
+border:1px solid #e4e8ef;
+border-bottom:4px solid #f2bd24;
+border-radius:12px;
+padding:25px 15px;
+text-align:center;
+box-shadow:0 4px 14px rgba(0,0,0,.07);
+}
+.contact-card h3{margin-bottom:12px;color:#123b7a}
+.contact-card p{font-size:14px;overflow-wrap:anywhere;margin-bottom:15px}
+.btn{
+display:inline-block;
+padding:11px 19px;
+border-radius:6px;
+background:#123b7a;
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+.btn:hover{background:#f2bd24;color:#111}
+.instagram{background:#d62976}
+.facebook{background:#1877f2}
+.youtube{background:#e60000}
+.whatsapp{background:#168b45}
+.booking{
+max-width:650px;
+margin:20px auto;
+padding:28px;
+border:1px solid #e2e5ea;
+border-radius:12px;
+box-shadow:0 5px 18px rgba(0,0,0,.08);
+}
+.booking label{
+display:block;
+margin:14px 0 7px;
+font-weight:bold;
+color:#123b7a;
+}
+.booking input,.booking select,.booking textarea{
+width:100%;
+padding:12px;
+border:1px solid #ccc;
+border-radius:6px;
+font-size:15px;
+}
+.booking textarea{height:100px;resize:vertical}
+.submit{
+width:100%;
+margin-top:20px;
+padding:14px;
+border:none;
+border-radius:6px;
+background:#168b45;
+color:white;
+font-size:17px;
+font-weight:bold;
+cursor:pointer;
+}
+.submit:hover{background:#116d36}
+.note{
+font-size:13px;
+color:#666;
+margin-top:12px;
+line-height:1.5;
+}
+footer{
+background:#0b2854;
+color:white;
+text-align:center;
+padding:25px 12px;
+line-height:1.8;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>RR Electrician Services</h1>
+<p>Professional Electrical Work & Solutions</p>
+</header>
+
+<nav>
+<a href="index.html" target="_blank" rel="noopener noreferrer">Home</a>
+<a href="services.html" target="_blank" rel="noopener noreferrer">Services</a>
+<a href="gallery.html" target="_blank" rel="noopener noreferrer">Gallery</a>
+<a href="contact.html" target="_blank" rel="noopener noreferrer">Contact</a>
+<a href="about.html" target="_blank" rel="noopener noreferrer">About Us</a>
+<a href="safety.html" target="_blank" rel="noopener noreferrer">Safety</a>
+</nav>
+
+<section class="hero">
+<h2>Contact Us</h2>
+<p>Need Electrical Service? Contact RR Electrician Services Today.</p>
+<p>We are ready to help you with your electrical work.</p>
+</section>
+
+<div class="container">
+
+<h2 class="social-title">Connect With Us</h2>
+
+<div class="contact-grid">
+
+<div class="contact-card">
+<h3>Call Us</h3>
+<p>9229854874</p>
+<a class="btn" href="tel:9229854874">Call Now</a>
+</div>
+
+<div class="contact-card">
+<h3>WhatsApp</h3>
+<p>Chat with us for electrical service and booking.</p>
+<a class="btn whatsapp" href="https://wa.me/919229854874" target="_blank" rel="noopener noreferrer">WhatsApp Now</a>
+</div>
+
+<div class="contact-card">
+<h3>Instagram</h3>
+<p>@rr_electrician_services</p>
+<a class="btn instagram" href="https://www.instagram.com/rr_electrician_services/" target="_blank" rel="noopener noreferrer">Follow Us</a>
+</div>
+
+<div class="contact-card">
+<h3>Facebook</h3>
+<p>RR Electrician Services</p>
+<a class="btn facebook" href="https://www.facebook.com/share/1KRccGxBc6/" target="_blank" rel="noopener noreferrer">Visit Page</a>
+</div>
+
+<div class="contact-card">
+<h3>YouTube</h3>
+<p>RR Electrician Services</p>
+<a class="btn youtube" href="https://www.youtube.com/channel/UCiqnaWpzcb4USI_ihlv-zNw" target="_blank" rel="noopener noreferrer">Subscribe</a>
+</div>
+
+</div>
+
+<h2 class="booking-title">Book Electrical Service</h2>
+
+<form class="booking" onsubmit="sendBooking(event)">
+
+<label for="name">Customer Name</label>
+<input type="text" id="name" placeholder="Enter your name" required>
+
+<label for="mobile">Mobile Number</label>
+<input type="tel" id="mobile" placeholder="Enter your mobile number"
+pattern="[0-9]{10}" maxlength="10" required>
+
+<label for="service">Select Electrical Service</label>
+<select id="service" required>
+<option value="">Choose Service</option>
+<option>New House Wiring</option>
+<option>Old House Rewiring</option>
+<option>Profile Light Installation</option>
+<option>Panel Board Work</option>
+<option>Inverter Installation</option>
+<option>Fan Installation</option>
+<option>Electrical Fault Solution</option>
+<option>LED & Decorative Lighting</option>
+<option>Switch & Socket Installation</option>
+<option>Earthing & Safety Work</option>
+<option>Other Electrical Work</option>
+</select>
+
+<label for="date">Preferred Date</label>
+<input type="date" id="date" required>
+
+<label for="address">Full Address</label>
+<textarea id="address" placeholder="Enter your complete address" required></textarea>
+
+<button type="submit" class="submit">Send Booking on WhatsApp</button>
+
+<p class="note">Your booking request will open in WhatsApp. Your service will be confirmed after discussion.</p>
+
+</form>
+</div>
+
+<footer>
+<h3>RR Electrician Services</h3>
+<p>Professional Electrical Services You Can Trust</p>
+<p>Call / WhatsApp: 9229854874</p>
+<p>© 2026 RR Electrician Services. All Rights Reserved.</p>
+</footer>
+
+<script>
+function sendBooking(event){
+event.preventDefault();
+
+const name=document.getElementById("name").value.trim();
+const mobile=document.getElementById("mobile").value.trim();
+const service=document.getElementById("service").value;
+const date=document.getElementById("date").value;
+const address=document.getElementById("address").value.trim();
+
+const message=
+"NEW ELECTRICAL SERVICE BOOKING\n\n"+
+"Customer Name: "+name+"\n"+
+"Mobile Number: "+mobile+"\n"+
+"Service: "+service+"\n"+
+"Preferred Date: "+date+"\n"+
+"Full Address: "+address;
+
+const whatsappURL="https://wa.me/919229854874?text="+encodeURIComponent(message);
+
+window.open(whatsappURL,"_blank");
+}
+</script>
+
+</body>
+</html>
